@@ -4,7 +4,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 // Core variables and mixins
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
@@ -21,7 +21,7 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
-/*
+
 // Components
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
@@ -43,17 +43,17 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/panels";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/wells";
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
-*/
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
 // Components w/ JavaScript
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
 
 // Utility classes
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
-//@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
   @import "_modules";
 /*material-desingn*/
 

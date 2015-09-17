@@ -18,23 +18,27 @@ var jade           = require('gulp-jade');
 
 //src file
 var imgSrc         = './src/images/**/*';
-var sourcesjs      =  [     './src/scripts/*.js', 
+var sourcesjs      =  [     
                             'bower_components/modernizr/modernizr.js',
-                            'bower_components/jquery/dist/jquery.js',
-                            'bower_components/bootstrap/js/transition.js',
-                            'bower_components/bootstrap/js/alert.js',
-                            'bower_components/bootstrap/js/button.js',
-                            'bower_components/bootstrap/js/carousel.js',
-                            'bower_components/bootstrap/js/collapse.js',
-                            'bower_components/bootstrap/js/dropdown.js',
-                            'bower_components/bootstrap/js/modal.js',
-                            'bower_components/bootstrap/js/tooltip.js',
-                            'bower_components/bootstrap/js/popover.js',
-                            'bower_components/bootstrap/js/scrollspy.js',
-                            'bower_components/bootstrap/js/tab.js',
-                            'bower_components/bootstrap/js/affix.js',
-                            'bower_components/jquery/dist/jquery.js'
-
+                            'bower_components/jquery/dist/jquery.min.js', 
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js',
+                            /*
+                            'bower_components/bootstrap-sass/assets/javascripts/transition.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/alert.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/button.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/carousel.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/collapse.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/dropdown.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/modal.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/tooltip.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/popover.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/scrollspy.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/tab.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/affix.js',
+                            */
+                            
+                            './src/scripts/*.js'
 
                             //'bower_components/OwlCarousel/owl-carousel/owl.carousel.js',
                             //'bower_components/magnific-popup/dist/jquery.magnific-popup.js',
@@ -131,7 +135,7 @@ gulp.task('sass', function() {
 // default gulp task
 gulp.task('default', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jade'*/], function() {
     // watch for HTML changes
-   gulp.watch('./src/*.html', function() {
+   gulp.watch('./src/html/*.html', function() {
     gulp.run('htmlpage');
     });
 

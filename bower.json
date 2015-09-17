@@ -1,0 +1,23 @@
+{
+  "name": "bstutorial",
+  "version": "0.0.0",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "jquery": "~2.1.4"
+  },
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  }
+}

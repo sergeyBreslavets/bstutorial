@@ -1,14 +1,62 @@
-.module--wrapper{
-	padding-top: 60px;
-}
-.module--breadcrums{ 
-	breadcrumb{
-	padding: 0 0 0 0;
-	float: right;
-	float-text:right ;
+.module--wrapper {
+    padding-top: 60px;
 }
 
+.module--breadcrums {
+    breadcrumb {
+        padding: 0 0 0 0;
+        float: right;
+        float-text: right;
+    }
 }
-.module--footer{
-	background: url(../images/back_foter.jpg) no-repeat;
+.navbar {
+	//background: url(../images/back_header.jpg) no-repeat;
+}
+.module--footer {
+    background: url(../images/back_foter.jpg) no-repeat;
+    margin: 90px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 13pt;
+    .media-object{
+    	width: 70px;
+    	height: 70px;
+    }
+    address{
+    	color: #fff;
+    }
+    h5 {
+        font-size: 20pt;
+        color: 4f4f4f;
+    }
+    p {
+        padding-top: 30px;
+        color: #fff;
+    }
+    ul {
+        li {
+            text-decoration: none;
+            list-style-type: none;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+    .media {
+        .media-body {
+            .date_blog {
+                color: #808080;
+                padding-top: 0px;
+            }
+            .text_blog {
+                color: #fff;
+                padding-top: 0px;
+            }
+        }
+    }
+    .footer_bottom{
+
+    	 color: #fff;
+    }
 }

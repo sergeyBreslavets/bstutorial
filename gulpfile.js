@@ -63,16 +63,16 @@ var csstarget      = './www/assets/styles/';
 var htmlDst        = './www/';
 var sasstarget     = './www/assets/styles';
 var pathjstarget   = './www/assets/scripts/';
-var fontsTarget    = './www/assets/fonts/';
+var fontsTargetbs    = './www/assets/fonts/bootstrap/';
 var imgDst         = './www/assets/images';
 var jadetarget     = './www/';
 
 // tasks 
-gulp.task('copyfont', function() {
-    gulp.src('./bower_components/material-design-icons/iconfont/*')
-        .pipe(gulp.dest(fontsTarget));
-});
 
+gulp.task('copyfont', function() {
+    gulp.src('./bower_components/bootstrap-sass/assets/fonts/bootstrap/*')
+        .pipe(gulp.dest(fontsTargetbs));
+});
 //jade task
 gulp.task('jade', function() {
   gulp.src([srcjade])
@@ -151,7 +151,7 @@ gulp.task('default', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'j
     gulp.watch('./src/sass/{,*/}*.{scss,sass}', function() {
         gulp.run('sass');
     });
-    gulp.watch('./src/images/**/*', function() {
+    gulp.watch('./src/images/*', function() {
         gulp.run('imagemin');
     });
 

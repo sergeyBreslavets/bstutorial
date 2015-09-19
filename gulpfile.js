@@ -70,7 +70,9 @@ var jadetarget     = './www/';
 // tasks 
 
 gulp.task('copyfont', function() {
-    gulp.src('./bower_components/bootstrap-sass/assets/fonts/bootstrap/*')
+    gulp.src([ './bower_components/bootstrap-sass/assets/fonts/bootstrap/*', 
+               './bower_components/components-font-awesome/fonts/*'
+             ])
         .pipe(gulp.dest(fontsTargetbs));
 });
 //jade task

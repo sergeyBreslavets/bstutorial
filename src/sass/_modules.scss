@@ -1,29 +1,85 @@
+body{
+	background-color:  #f3f3f3;
+
+}
+.navbar {
+	background-color: #76c7c0;
+	background-image: url("img/rules_header.png") ;
+	background-repeat: repeat-x; 
+	background-position: left bottom;
+	color: #fff;
+	font-size: 14pt;
+	float-text: right;
+	.navbar-collapse {
+	a{
+		color: #fff;
+	}
+	a:hover{
+		border-radius: 5px;
+		background-color: #62a29e;
+	}}
+}
 .module--wrapper {
     padding-top: 60px;
 }
 
 .module--breadcrums {
-    breadcrumb {
-        padding: 0 0 0 0;
-        float: right;
-        float-text: right;
-    }
+	background-color: #ececec;
+	color: #7f8c8c;
+	.module--breadcrums_header{
+		margin-top: 25px;
+
+       	font-size: 20pt;
+       }
+   
 }
-.navbar {
-	//background: url(../images/back_header.jpg) no-repeat;
+.module--content{
+margin-top: 25px;
+.module--footer_small__copyright{
+	font-size: 25pt;
+	
+}
+}
+.module__project_description{
+	margin-top: 115px;
+	h3{
+		font-size: 16pt;
+		color: #7f8c8c;
+	}
+	p{
+		font-size: 14pt;
+		color: #9aa4a4;
+
+	}
+	.table{
+		font-size: 14pt;
+		color: #9aa4a4;
+	}
+}
+.module__relateted_projects{
+	margin-top: 100px;
+	h3{
+		font-size: 16pt;
+		color: #7f8c8c;
+	}
+
 }
 .module--footer {
-    background: url(../images/back_foter.jpg) no-repeat;
-    margin: 90px;
+	background-image: url("img/rules.png") ;
+	background-repeat: repeat-x; 
+	background-position: left top;
+    background-color: #76c7c0;
+    margin-top: 90px;
     padding-top: 50px;
     padding-bottom: 25px;
     font-size: 13pt;
-    .media-object{
-    	width: 70px;
-    	height: 70px;
+
+    .media-object {
+        width: 70px;
+        height: 70px;
     }
-    address{
-    	color: #fff;
+    address {
+        color: #fff;
     }
     h5 {
         font-size: 20pt;
@@ -55,8 +111,27 @@
             }
         }
     }
-    .footer_bottom{
-
-    	 color: #fff;
+    .footer_bottom {
+        color: #fff;
     }
+}
+
+.module--footer_small {
+	padding-top: 10px;
+    background-color: #6ab3ac;
+    color: #FFF;
+    font-size: 13pt;
+    .social_icons{ 
+
+        letter-spacing:  15px;
+    	li{
+    	list-style-type: none;
+    	display: inline;
+        }
+    	.social_icons--link{
+    		text-decoration: none;
+    	
+    }
+    }
+
 }

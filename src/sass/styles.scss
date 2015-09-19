@@ -1,3 +1,5 @@
+$fa-font-path:        "../fonts/bootstrap/" !default;
+@import "bower_components/components-font-awesome/scss/font-awesome";
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -54,9 +56,14 @@
 // Utility classes
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+
   @import "_modules";
 /*material-desingn*/
 
 //@import "_font";
+
+
+
 
 

@@ -63,7 +63,7 @@ var csstarget      = './www/assets/styles/';
 var htmlDst        = './www/';
 var sasstarget     = './www/assets/styles';
 var pathjstarget   = './www/assets/scripts/';
-var fontsTargetbs    = './www/assets/fonts/bootstrap/';
+var fontsTargetbs  = './www/assets/fonts/bootstrap/';
 var imgDst         = './www/assets/images';
 var jadetarget     = './www/';
 
@@ -135,7 +135,7 @@ gulp.task('sass', function() {
 });
 
 // default gulp task
-gulp.task('default', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jade'*/], function() {
+gulp.task('watch', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jade'*/], function() {
     // watch for HTML changes
    gulp.watch('./src/html/*.html', function() {
     gulp.run('htmlpage');
@@ -162,5 +162,15 @@ gulp.task('default', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'j
    //});
 
 });
+gulp.task('default', function() {
+ 
+        gulp.run('htmlpage');
+        gulp.run('jshint', 'scripts');
+        gulp.run('styles');
+        gulp.run('sass');
+        gulp.run('imagemin');
+    
+});
+
 
 

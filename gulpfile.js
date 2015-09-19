@@ -66,8 +66,13 @@ var pathjstarget   = './www/assets/scripts/';
 var fontsTargetbs  = './www/assets/fonts/bootstrap/';
 var imgDst         = './www/assets/images';
 var jadetarget     = './www/';
-
+var opensanstarget = './www/assets/fonts/open-sans/';
 // tasks 
+
+gulp.task('copyopensans', function() {
+    gulp.src('./bower_components/open-sans/fonts/*/*')
+        .pipe(gulp.dest(opensanstarget));
+});
 
 gulp.task('copyfont', function() {
     gulp.src([ './bower_components/bootstrap-sass/assets/fonts/bootstrap/*', 

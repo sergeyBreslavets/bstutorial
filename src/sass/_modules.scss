@@ -106,66 +106,124 @@
     
     .module--content {
         margin-top: 25px;
-
-       .module--content__heading{
-       	display: block;
-       	 font-family: 'Open Sans';
-       	 font-weight: 600;
-  		font-style: normal;
-  		font-size: 20px; 
-  		color: #7f8c8c;
-  		padding-top: 40px;
-  		padding-bottom: 60px;
-       }
-
-        .module--content__arrow{
-           float: right; 
-           padding-top: 40px;
-  		   padding-bottom: 60px;
-           a{  
-           	   padding: 6px 10px;
-               background-color: #98a3a3 ;
-               border-bottom: 2px solid  #7f8c8c;
-               border-radius: 5px; 
-               color: #fff;
-           	&:hover, &:focus {
-           		background-color: #e2534b;
-           		border-bottom: 2px solid transparent;
-           		border-radius: 5px;
-           		color: #fff;
-           	}
-           }
+        .module--content__heading {
+            display: block;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            font-style: normal;
+            font-size: 20px;
+            color: #7f8c8c;
+            padding-top: 40px;
+            padding-bottom: 60px;
         }
+        .module--content__arrow {
+            float: right;
+            padding-top: 40px;
+            padding-bottom: 60px;
+            a {
+                padding: 6px 10px;
+                background-color: #98a3a3;
+                border-bottom: 2px solid #7f8c8c;
+                border-radius: 5px;
+                color: #fff;
+                &:hover,
+                &:focus {
+                    background-color: #e2534b;
+                    border-bottom: 2px solid transparent;
+                    border-radius: 5px;
+                    color: #fff;
+                }
+            }
+        }
+        .slaider {
+           }
     }
     
-    .module__project_descripxion {
+    .module--project_description {
         margin-top: 115px;
         h3 {
             font-size: 16px;
             color: #7f8c8c;
+             font-family: 'Open Sans';
+			 font-weight: bold;
+			 font-style: normal;
         }
         p {
-            font-size: 14px;
-            color: #9aa4a4;
+             font-size: 14px;
+             color: #9aa4a4;
+             font-family: 'Open Sans';
+			 font-weight: normal;
+			 font-style: normal;
         }
         .table {
-            font-size: 14px;
+            font-size: 12px;
             color: #9aa4a4;
+              font-family: 'Open Sans';
+			 font-weight: normal;
+			 font-style: normal;
+			 a{  
+			 	color: #9aa4a4;
+                text-decoration: none;
+                &:hover, &:focus{
+                	color: #e2534b;
+                }
+
+			 }
         }
     }
     
-    .module__relateted_projects {
-        margin-top: 100px;
+    .module--relateted_projects {
+         margin-top: 100px;  
+
+
+         hr{
+         	margin-top: 30px; 
+         }
+    	.module--relateted_projects__arrow{
+    		    padding-top: 20px;
+    		         float: right;
+           
+            a {
+                padding: 6px 10px;
+                background-color: #98a3a3;
+                border-bottom: 2px solid #7f8c8c;
+                border-radius: 5px;
+                color: #fff;
+                &:hover,
+                &:focus {
+                    background-color: #e2534b;
+                    border-bottom: 2px solid transparent;
+                    border-radius: 5px;
+                    color: #fff;
+                }
+            }
+    	}
+        
         h3 {
             font-size: 16px;
             color: #7f8c8c;
+             font-family: 'Open Sans';
+			 font-weight: bold;
+			 font-style: normal;
+
         }
+
         .module__relateted_projects__images {
             padding-top: 70px;
-            a:hover {
-                background-color: #76c7c0;
+            .scren{
+
+
+            a {  
+            	img{
+            	background: transparent;
+                }
+            	&:hover{
+            	img{
+                background: #76c7c0;
+                    }  
             }
-        }
+            }
+        }}
     }
     
     .module--footer {
@@ -248,11 +306,15 @@
             font-style: normal;
             font-size: 12px;
         }
-        .social_icons {
+        .social_icons { 
+        	
             letter-spacing: 15px;
             li {
                 list-style-type: none;
                 display: inline;
+                a{
+                	color: #fff;
+                }
             }
             .social_icons--link {
                 text-decoration: none;

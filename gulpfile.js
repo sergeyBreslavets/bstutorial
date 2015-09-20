@@ -21,22 +21,22 @@ var imgSrc         = './src/images/**/*';
 var sourcesjs      =  [     
                             'bower_components/modernizr/modernizr.js',
                             'bower_components/jquery/dist/jquery.min.js', 
-                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js',
-                            /*
-                            'bower_components/bootstrap-sass/assets/javascripts/transition.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/alert.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/button.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/carousel.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/collapse.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/dropdown.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/modal.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/tooltip.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/popover.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/scrollspy.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/tab.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/affix.js',
-                            */
+                            //'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+                            //'bower_components/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js',
+                            
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js',
+                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js',
+                            
                             
                             './src/scripts/*.js'
 

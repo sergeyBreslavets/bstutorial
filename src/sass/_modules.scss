@@ -421,72 +421,175 @@ body {
     }
 }
 
-.module--contact_us { 
+.module--contact_us {
     margin-top: 60px;
     margin-bottom: 200px;
-    .custom_form{ 
-      .btn_custom{
-        background-color: #e8645a;
-        border: transparent;
-        margin-left: 15px;
-      }
-        label{
-        text-align: left;
+    .custom_form {
+        .btn_custom {
+            background-color: #e8645a;
+            border: transparent;
+            margin-left: 15px;
+        }
+        label {
+            text-align: left;
+            color: #7f8c8c;
+            font-family: 'Open Sans';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 18px;
+        }
+        .form-group {
+            .custom_input_text {
+                background: #e5e6e6;
+            }
+            .custom_input_textarea {
+                background: #e5e6e6;
+                margin-left: 15px;
+            }
+        }
+    }
+    h3 {
+        padding-bottom: 64px;
         color: #7f8c8c;
         font-family: 'Open Sans';
-                font-weight: normal;
-                font-style: normal;
-                font-size: 18px;
-
-    } .form-group{
-
-        .custom_input_text{
-           background: #e5e6e6; 
-        }
-        .custom_input_textarea{
-             background: #e5e6e6; 
-                 margin-left: 15px;
-        }
-   }
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        text-transform: uppercase;
     }
-    h3{   
-                padding-bottom: 64px;       
+    .marker_color {
+        float: left;
+        color: #e2534b;
+        font-size: 30px;
+    }
+    .marker_fone {
+        float: left;
+        color: #7f8c8c;
+        font-size: 20px;
+    }
+    .marker_mail {
+        float: left;
+        font-size: 20px;
+    }
+    p {
+        color: #777777;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+        a {
+            &:hover,
+            &:focus {
+                color: #e2534b;
+            }
+        }
+    }
+}
+
+.module--about {
+    margin-top: 50px;
+    h2 {
+        color: #e1524b;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+    }
+    p {
+        margin-top: 30px;
+        color: #7f8c8c;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+    }
+    h3 {
+        margin-top: 70px;
+        color: #7f8c8c;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+    }
+    ul {
+        margin-top: 40px;
+        margin-left: -40px;
+        li {
+            i {
+                color: #e1524b;
+            }
+            list-style-type: none;
+            color: #777777;
+            font-family: 'Open Sans';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+        }
+    }
+    .about_center_block {
+        p {
+            margin-top: 65px;
+            color: #777777;
+            font-family: 'Open Sans';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            a {
+                color: #e1524b;
+            }
+        }
+        .monitors {
+            padding-top: 60px;
+            text-align: center;
+            span {
+                bottom: 20%;
+                position: absolute;
                 color: #7f8c8c;
                 font-family: 'Open Sans';
-                font-weight: 600;
+                font-weight: bold;
                 font-style: normal;
-                font-size: 20px;
-                text-transform: uppercase;
-    }
-   .marker_color{
-    float:left;
-    color: #e2534b;
-    font-size: 30px;
-
-   }
-   .marker_fone{
-    float:left;
-    color: #7f8c8c;
-    font-size: 20px;
-   }
-   .marker_mail{
-    float:left;
-   
-    font-size: 20px;
-   }
-    p{        
-               
-               color: #777777; 
+                font-size: 30px;
+            }
+            h4 {
+                text-align: center;
+                /// padding-left: 5px;
+                color: #7f8c8c;
                 font-family: 'Open Sans';
-                font-weight: normal;
+                font-weight: bold;
                 font-style: normal;
-                font-size: 14px;
-                a{
-                    &:hover, &:focus {
-                          
-                        color: #e2534b;
-                    }
-                }
+                font-size: 16px;
+            }
+        }
     }
-   
+}
+
+.module-our_team {
+    margin-top: 75px;
+    background-color: #ececec;
+    background-image: url("img/rul_ab.png");
+    background-repeat: repeat-x;
+    background-position: left top;
+    h2 { 
+        text-align: center;
+        margin-top: 70px;
+        color: #7f8c8c;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+}
+.module--best_solution{
+    margin-top: 95px;
+    h2{
+        text-align: center;
+        
+        color: #e1524b;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 40px;
+       
+    }
 }

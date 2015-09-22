@@ -167,6 +167,7 @@ gulp.task('watch', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jad
    //});
 
 });
+
 gulp.task('default', function() {
  
         gulp.run('htmlpage');
@@ -177,5 +178,11 @@ gulp.task('default', function() {
     
 });
 
+gulp.task('whtml', function() {
+    // watch for HTML changes
+   gulp.watch('./src/html/*.html', function() {
+    gulp.run('htmlpage');
+    });
+});
 
 

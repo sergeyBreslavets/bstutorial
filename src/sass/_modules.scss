@@ -424,6 +424,31 @@ body {
 .module--contact_us { 
     margin-top: 60px;
     margin-bottom: 200px;
+    .custom_form{ 
+      .btn_custom{
+        background-color: #e8645a;
+        border: transparent;
+        margin-left: 15px;
+      }
+        label{
+        text-align: left;
+        color: #7f8c8c;
+        font-family: 'Open Sans';
+                font-weight: normal;
+                font-style: normal;
+                font-size: 18px;
+
+    } .form-group{
+
+        .custom_input_text{
+           background: #e5e6e6; 
+        }
+        .custom_input_textarea{
+             background: #e5e6e6; 
+                 margin-left: 15px;
+        }
+   }
+    }
     h3{   
                 padding-bottom: 64px;       
                 color: #7f8c8c;
@@ -463,26 +488,5 @@ body {
                     }
                 }
     }
-    .input-group {   
-         padding-bottom: 20px;
-        span{
-               font-family: 'Open Sans';
-                font-weight: normal;
-                font-style: normal;
-                font-size: 18px;
-        }
-        .form-control {
-            background-color: #e5e6e6;
-           
-            border-radius: 5px;
-        }
-        .input-group-addon {
-            color: #7f8c8c;
-            border-color: transparent;
-            background-color: transparent;
-        }
-        .custom_input{
-            
-        }
-    }
+   
 }

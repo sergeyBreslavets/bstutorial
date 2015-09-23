@@ -539,9 +539,16 @@ body {
             }
         }
         .monitors {
+            width: 100%;
             padding-top: 60px;
             text-align: center;
-            span {
+            img{
+                width: 100%;
+            }
+            span { 
+                width: 100%;
+                text-align: center;
+                left: 0px;
                 bottom: 20%;
                 position: absolute;
                 color: #7f8c8c;
@@ -592,4 +599,46 @@ body {
         font-size: 40px;
        
     }
+    p{  
+        margin-top: 25px;
+        color: #7f8c8c;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+    }
+    img{ 
+        margin-top: 53px;
+        border-radius: 5px;
+    } 
+    h3{ 
+         margin-top: 60px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+        color: #7f8c8c;
+    }
+    .featurette-divider{
+        margin-top: 70px;
+    }
+    .module--best_solution__arrow{
+          margin-top: 60px;
+        float: right;
+        a {
+            padding: 6px 10px;
+            background-color: #98a3a3;
+            border-bottom: 2px solid #7f8c8c;
+            border-radius: 5px;
+            color: #fff;
+            &:hover,
+            &:focus {
+                background-color: #e2534b;
+                border-bottom: 2px solid transparent;
+                border-radius: 5px;
+                color: #fff;
+            }
+        }
+    }
 }
+

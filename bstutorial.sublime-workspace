@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align-last"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"re",
+				"req1	require_once …"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"fo",
+				"focus"
+			],
+			[
+				"boto",
+				"bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"15px",
+				"15px"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ow",
+				"overflow"
+			],
+			[
+				"f",
+				"fl	float"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"b",
+				"bg	background"
+			],
+			[
+				"jade",
+				"jade"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"m",
+				"meta"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 373.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/WebServers/home/bstutorial"
+	],
+	"file_history":
+	[
+		"/C/webserver/home/bstutorial/src/sass/styles.scss",
+		"/C/webserver/home/bstutorial/src/sass/_modules.scss",
+		"/C/webserver/home/bstutorial/src/html/about.html",
+		"/C/WebServers/home/russiantouristunion.loc/www/config.php",
+		"/C/WebServers/home/russiantouristunion.loc/www/admin/config.php",
+		"/C/webserver/home/russiantouristunion.loc/www/config.php",
+		"/C/webserver/home/russiantouristunion.loc/www/admin/config.php",
+		"/C/webserver/home/russiantouristunion.loc/www/admin/error_log",
+		"/C/webserver/home/russiantouristunion.loc/www/.htaccess",
+		"/C/webserver/home/russiantouristunion.loc/www/system/startup.php",
+		"/C/webserver/home/russiantouristunion.ru/www/admin/config.php",
+		"/C/webserver/home/htc/www/config.php",
+		"/C/webserver/home/bstutorial/www/assets/styles/styles.css",
+		"/C/Users/Бреславец/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/webserver/home/bstutorial/src/html/index.html",
+		"/C/webserver/home/bstutorial/src/html/contact.html",
+		"/C/webserver/home/bstutorial/gulpfile.js",
+		"/C/webserver/home/php_tutorial_blog/www/index.html",
+		"/C/webserver/home/php_tutorial_blog/www/index.php",
+		"/C/webserver/home/php_tutorial_blog/www/datebase.php",
+		"/C/webserver/home/php_tutorial_blog/www/arcticle.php",
+		"/C/webserver/home/php_tutorial_blog/www/models/articles.php",
+		"/C/webserver/home/bstutorial/src/sass/_custom_var.scss",
+		"/C/webserver/home/bstutorial/src/html/temp.txt",
+		"/C/webserver/home/bstutorial/www/assets/scripts/script.js",
+		"/C/webserver/home/mysite/www/src/index.html",
+		"/C/webserver/home/bstutorial/bower_components/jquery/dist/jquery.min.js",
+		"/C/webserver/home/bstutorial/bower.json",
+		"/C/webserver/home/mysiteTutorial/src/sass/_modules.scss",
+		"/C/webserver/home/mysiteTutorial/src/html/test_index.html",
+		"/C/webserver/home/mysiteTutorial/src/html/temp.txt",
+		"/C/webserver/home/mysiteTutorial/gulpfile.js",
+		"/C/webserver/home/templatesstartsite_BS/gulpfile.js",
+		"/C/webserver/home/templatestartsite_MDL/gulpfile.js",
+		"/C/webserver/home/templatesstartsite_BS/src/sass/styles.scss",
+		"/C/webserver/home/templatestartsite_MDL/src/sass/styles.scss",
+		"/C/webserver/home/templatesstartsite_BS/package.json",
+		"/C/webserver/home/templatestartsite_MDL/bower.json",
+		"/C/webserver/home/templatesstartsite_BS/bower.json",
+		"/C/webserver/home/mytutorial/www/bower.json",
+		"/C/webserver/home/templatesstartsite_BS/templatestartsite_MDL/bower.json",
+		"/C/webserver/home/templatestartsite_v2/www/index.html",
+		"/C/webserver/home/templatestartsite_v2/src/sass/_font.scss",
+		"/C/webserver/home/templatestartsite_v2/package.json",
+		"/C/webserver/home/templatestartsite_v2/src/jade/index.jade",
+		"/C/webserver/home/templatestartsite_v2/src/html/test_index.html",
+		"/C/webserver/home/templatestartsite_v2/src/sass/styles.scss",
+		"/C/webserver/home/templatestartsite_v2/gulpfile.js",
+		"/C/webserver/home/templatestartsite_v2/www/test_index.html",
+		"/C/webserver/home/templatestartsite_v2/src/index.html",
+		"/C/webserver/home/templatestartsite_v2/www/scripts/script.js",
+		"/C/webserver/home/templatestartsite_v2/src/scripts/scripts.js",
+		"/C/webserver/home/templatestartsite_v2/www/styles/styles.css",
+		"/C/webserver/home/templatestartsite_v2/bower_components/material-design-lite/material.min.css",
+		"/C/webserver/home/templatestartsite_v2/bower.json",
+		"/C/Users/Бреславец/Downloads/tytorial/js/modernizr.custom.04022.js",
+		"/C/Users/Бреславец/Downloads/tytorial/css/style.css",
+		"/C/Users/Бреславец/Downloads/tytorial/index.html",
+		"/E/work/new_work/index.html",
+		"/C/Users/Бреславец/Desktop/test.html",
+		"/C/Users/Бреславец/Downloads/tytorial/css/normalize.css",
+		"/C/Users/Бреславец/Downloads/tytorial/css/demo.css",
+		"/E/work/new_work/_index.html",
+		"/E/work/Rival-v1.5.1/Site/assets/css/style.css",
+		"/E/work/Rival-v1.5.1/css/_vertival_margin_padding.css",
+		"/E/work/Rival-v1.5.1/css/_multi-columns-row.css",
+		"/E/work/Rival-v1.5.1/css/_responsive_media_querries.css",
+		"/E/work/Rival-v1.5.1/css/_headers.css",
+		"/E/work/Rival-v1.5.1/css/_comments_features_navbar.css",
+		"/E/work/Rival-v1.5.1/css/_shope_item.css",
+		"/E/work/Rival-v1.5.1/css/_shop_product_detail.css",
+		"/E/work/Rival-v1.5.1/css/_shop_item_hover.css",
+		"/E/work/Rival-v1.5.1/css/_links_hover.css",
+		"/E/work/Rival-v1.5.1/css/_navbar_cart_item.css",
+		"/E/work/Rival-v1.5.1/css/_shop.css",
+		"/E/work/Rival-v1.5.1/css/_client_logos.css",
+		"/E/work/Rival-v1.5.1/css/_comments_and_comment_form.css",
+		"/E/work/Rival-v1.5.1/css/_tags.css",
+		"/E/work/Rival-v1.5.1/css/_widgets.css",
+		"/E/work/Rival-v1.5.1/css/_post_columns.css",
+		"/E/work/Rival-v1.5.1/css/_post.css",
+		"/E/work/Rival-v1.5.1/css/_gallery_hover.css",
+		"/E/work/Rival-v1.5.1/css/_gallery.css",
+		"/E/work/Rival-v1.5.1/css/_testimonials.css",
+		"/E/work/Rival-v1.5.1/css/_callout.css",
+		"/E/work/Rival-v1.5.1/css/_portfoli_single.css",
+		"/E/work/Rival-v1.5.1/css/_work_item_white_background.css",
+		"/E/work/Rival-v1.5.1/css/_work_item_gradien_background.css",
+		"/E/work/Rival-v1.5.1/css/_portfolio_grid.css",
+		"/E/work/Rival-v1.5.1/css/_portfolio_filter.css",
+		"/E/work/Rival-v1.5.1/css/_video_box.css",
+		"/E/work/Rival-v1.5.1/css/_price-tables.css",
+		"/E/work/Rival-v1.5.1/css/_count_to.css",
+		"/E/work/Rival-v1.5.1/css/_team.css",
+		"/E/work/Rival-v1.5.1/css/_restaurant_menu.css",
+		"/E/work/Rival-v1.5.1/css/_content_box.css",
+		"/E/work/Rival-v1.5.1/css/_services_content_box.css",
+		"/E/work/Rival-v1.5.1/css/_google_map.css",
+		"/E/work/Rival-v1.5.1/css/_footer.css",
+		"/E/work/Rival-v1.5.1/css/_half-image.css",
+		"/E/work/Rival-v1.5.1/css/_sections_dividers.css",
+		"/E/work/Rival-v1.5.1/css/_restaurant_module_header.css",
+		"/E/work/Rival-v1.5.1/css/_module_header.css",
+		"/E/work/Rival-v1.5.1/css/_sections.css",
+		"/E/work/Rival-v1.5.1/css/_video.css",
+		"/E/work/Rival-v1.5.1/css/_home_section.css",
+		"/E/work/Rival-v1.5.1/css/_navbar_search.css",
+		"/E/work/Rival-v1.5.1/css/_navbar.css",
+		"/E/work/Rival-v1.5.1/css/_typography.css",
+		"/E/work/Rival-v1.5.1/css/_preloader.css",
+		"/E/work/Rival-v1.5.1/css/_dark_background.css",
+		"/E/work/Rival-v1.5.1/css/_tables.css",
+		"/E/work/Rival-v1.5.1/css/_accordion.css",
+		"/E/work/Rival-v1.5.1/css/_tabs.css",
+		"/E/work/Rival-v1.5.1/css/_progress_bars.css",
+		"/E/work/Rival-v1.5.1/css/_buttons_size.css",
+		"/E/work/Rival-v1.5.1/css/_button_style.css",
+		"/E/work/Rival-v1.5.1/css/_forms_and_forms_size.css",
+		"/E/work/Rival-v1.5.1/css/_reset_border-radius.css",
+		"/E/work/Rival-v1.5.1/css/_reset_box-shadow.css",
+		"/E/work/Rival-v1.5.1/css/_transition_elsements.css",
+		"/E/work/Rival-v1.5.1/css/_general_styles.css",
+		"/E/work/Rival-v1.5.1/css/_selection.css",
+		"/E/work/Rival-v1.5.1/Site/404.html",
+		"/C/webserver/home/mysite/www/src/sass/styles.scss",
+		"/C/Users/Бреславец/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Бреславец/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/C/webserver/home/mysite/www/build/index.html"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".ru",
+			"/home/rustourist/russiantouristunion.ru/docs/",
+			".ru",
+			"/home/rustourist/russiantouristunion.ru/docs",
+			"pt",
+			"$bootstrap-sass-asset-helper",
+			".modules",
+			"<div class=\"mdl-cell mdl-cell--3-col\"> <img src=\"\"></div>",
+			">\n",
+			"          ",
+			"rive",
+			"home"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".loc",
+			"C:/webserver/home/russiantouristunion.loc/www/",
+			".loc",
+			"C:/webserver/home/russiantouristunion.ru/www",
+			"px",
+			".module",
+			"wrapper__"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 86.0
+	},
+	"pinned_build_system": "",
+	"project": "bstutorial.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

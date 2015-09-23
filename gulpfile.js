@@ -57,7 +57,7 @@ var sourcesjs      =  [
 var htmlSrc        = './src/html/*.html';
 var srcjade        ='./src/jade/*.jade';
 var srcsass        ='./src/sass/styles.scss';
-
+var imgSrccss      ='./src/img/**/*';
 //src target
 var csstarget      = './www/assets/styles/';
 var htmlDst        = './www/';
@@ -67,7 +67,10 @@ var fontsTargetbs  = './www/assets/fonts/bootstrap/';
 var imgDst         = './www/assets/images';
 var jadetarget     = './www/';
 var opensanstarget = './www/assets/fonts/open-sans/';
+var imgDstcss      ='./www/assets/styles/img';
 // tasks 
+
+
 
 gulp.task('copyopensans', function() {
     gulp.src('./bower_components/open-sans/fonts/*/*')
@@ -175,8 +178,10 @@ gulp.task('default', function() {
         gulp.run('styles');
         gulp.run('sass');
         gulp.run('imagemin');
+        gulp.run('imagemincss'); 
     
 });
+
 
 gulp.task('whtml', function() {
     // watch for HTML changes
@@ -185,4 +190,9 @@ gulp.task('whtml', function() {
     });
 });
 
-
+gulp.task('imagemincss', function() {
+    gulp.src(imgSrccss)
+        .pipe(changed(imgDstcss))
+        .pipe(imagemin())
+        .pipe(gulp.dest(imgDstcss));
+});

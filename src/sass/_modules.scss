@@ -542,10 +542,10 @@ body {
             width: 100%;
             padding-top: 60px;
             text-align: center;
-            img{
+            img {
                 width: 100%;
             }
-            span { 
+            span {
                 width: 100%;
                 text-align: center;
                 left: 0px;
@@ -576,7 +576,7 @@ body {
     background-image: url("img/rul_ab.png");
     background-repeat: repeat-x;
     background-position: left top;
-    h2 { 
+    h2 {
         text-align: center;
         margin-top: 70px;
         color: #7f8c8c;
@@ -586,27 +586,24 @@ body {
         font-size: 40px;
         text-transform: uppercase;
     }
-
-.team{
-    button{
-        margin-top: -11%;
-        margin-left: 33%; 
-        background: #98a3a3;           
+    .team {
+        button {
+            margin-top: -11%;
+            margin-left: 33%;
+            background: #98a3a3;
         }
-        .link_team{  
-               margin-top: -130%;
-               visibility: hidden;
-                  p{
-                    padding-top: 37px;
-                    padding-left: 37px;
-                    padding-right: 37px;
-                    padding-bottom: 70px;
-                  }
-
-                  .link_team_a{
-                    padding-left: 37px;
-               a {  
-
+        .link_team {
+            margin-top: -130%;
+            visibility: hidden;
+            p {
+                padding-top: 37px;
+                padding-left: 37px;
+                padding-right: 37px;
+                padding-bottom: 70px;
+            }
+            .link_team_a {
+                padding-left: 37px;
+                a {
                     padding: 6px 10px;
                     background-color: #98a3a3;
                     border-bottom: 2px solid #7f8c8c;
@@ -618,43 +615,39 @@ body {
                         border-radius: 5px;
                         color: #fff;
                     }
-                }}
-        }
-   
-        &:hover, &:focus{
-                button{
-                    background: #e8645a;
                 }
-                background: #90d1cb;
-            .link_team{
-                visibility: visible;
-
-            } .team_img{
-
-                background:  #90d1cb;
-            img{
-                visibility: hidden;
-
-            }}
+            }
         }
-    
+        &:hover,
+        &:focus {
+            button {
+                background: #e8645a;
+            }
+            background: #90d1cb;
+            .link_team {
+                visibility: visible;
+            }
+            .team_img {
+                background: #90d1cb;
+                img {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
 }
 
-
-}
-.module--best_solution{
+.module--best_solution {
     margin-top: 95px;
-    h2{
+    h2 {
         text-align: center;
-        
         color: #e1524b;
         font-family: 'Open Sans';
         font-weight: 300;
         font-style: normal;
         font-size: 40px;
-       
     }
-    p{  
+    p {
         margin-top: 25px;
         color: #7f8c8c;
         font-family: 'Open Sans';
@@ -662,23 +655,23 @@ body {
         font-style: normal;
         font-size: 14px;
     }
-    img{ 
+    img {
         margin-top: 53px;
         border-radius: 5px;
-    } 
-    h3{ 
-         margin-top: 60px;
+    }
+    h3 {
+        margin-top: 60px;
         font-family: 'Open Sans';
         font-weight: bold;
         font-style: normal;
         font-size: 16px;
         color: #7f8c8c;
     }
-    .featurette-divider{
+    .featurette-divider {
         margin-top: 70px;
     }
-    .module--best_solution__arrow{
-          margin-top: 60px;
+    .module--best_solution__arrow {
+        margin-top: 60px;
         float: right;
         a {
             padding: 6px 10px;
@@ -697,3 +690,86 @@ body {
     }
 }
 
+.module--content_blog {
+    margin-top: 100px;
+    .article {
+            margin-left: -15px;
+        .blog_icon {
+            float: left;
+            .blog_date {
+                padding: 14px 0px;
+                margin-bottom: 17px;
+                height: 100%;
+                text-align: center;
+                left: 0;
+                background-color: #f8f8f8;
+                border-radius: 5px;
+                color: #7f8c8c;
+                border-bottom: 2px solid #e5e6e6;
+                .montc {
+                    font-size: 20px;
+                    font-family: 'Open Sans';
+                    font-weight: normal;
+                    font-style: normal;
+                    text-transform: uppercase;
+                }
+                .date {
+                    font-size: 30px;
+                    font-family: 'Open Sans';
+                    font-weight: bold;
+                    font-style: normal;
+                }
+            }
+        }
+        .blog_content {
+            padding-left: 100px;
+            img {
+                border-radius: 5px;
+                border-bottom: 3px solid #e5e6e6;
+            }
+            h3 {
+                padding-top: 35px;
+                font-size: 24px;
+                font-family: 'Open Sans';
+                font-weight: 600;
+                font-style: normal;
+                color: #76c7c0;
+            }
+            .blog_inf {
+                padding-top: 22px;
+                font-size: 14px;
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-style: normal;
+                color: #7f8c8c;
+                a {
+                    color: #e2534b;
+                    text-decoration: none;
+                }
+                i {
+                    color: #76c7c0;
+                }
+            }
+            p {
+                padding-top: 40px;
+                padding-bottom: 30px;
+                color: #7f8c8c;
+                font-size: 14px;
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-style: normal;
+            }
+            a {
+                color: #e2534b;
+                font-size: 14px;
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: none;
+            }
+        }
+    }
+    .featurette-divider{
+       margin: 44px 0px; 
+    }
+}

@@ -586,6 +586,61 @@ body {
         font-size: 40px;
         text-transform: uppercase;
     }
+
+.team{
+    button{
+        margin-top: -11%;
+        margin-left: 33%; 
+        background: #98a3a3;           
+        }
+        .link_team{  
+               margin-top: -130%;
+               visibility: hidden;
+                  p{
+                    padding-top: 37px;
+                    padding-left: 37px;
+                    padding-right: 37px;
+                    padding-bottom: 70px;
+                  }
+
+                  .link_team_a{
+                    padding-left: 37px;
+               a {  
+
+                    padding: 6px 10px;
+                    background-color: #98a3a3;
+                    border-bottom: 2px solid #7f8c8c;
+                    border-radius: 5px;
+                    color: #fff;
+                    &:hover {
+                        background-color: #e2534b;
+                        border-bottom: 2px solid transparent;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }}
+        }
+   
+        &:hover, &:focus{
+                button{
+                    background: #e8645a;
+                }
+                background: #90d1cb;
+            .link_team{
+                visibility: visible;
+
+            } .team_img{
+
+                background:  #90d1cb;
+            img{
+                visibility: hidden;
+
+            }}
+        }
+    
+}
+
+
 }
 .module--best_solution{
     margin-top: 95px;

@@ -4,25 +4,14 @@ body {
 
 .navbar-custom {
     min-height: 100px;
-   
-    background-image: url("./images/back_nav.png");
-    background-repeat: no-repeat;
-    
+    background-color: #b76647;
+    background: url("../images/back_nav.png") no-repeat;
     color: #fff;
     font-size: 14px;
-    .dropdown-menu {
-        background-color: #76c7c0;
-    }
-    .navbar-brand {
-        padding: 28px 15px;
-    }
     .navbar-nav {
-        padding: 0px 0 0 0;
         margin-top: 20px;
         > li > a {
             text-transform: uppercase;
-            padding: 10px 15px;
-            border-radius: 5px;
             background-color: transparent;
             font-family: 'Open Sans';
             font-weight: 600;
@@ -31,17 +20,147 @@ body {
             border-bottom: 2px solid transparent;
             &:hover,
             &:focus {
-                background-color: #62a29e;
-                border-bottom: 2px solid #528b86;
+                background-color: #22140e;
+                border-bottom: 2px solid #dd3f19;
             }
         }
     }
 }
 
 .module--wrapper {
-    padding-top: 80px;
+    padding-top: 100px;
+   // background-color: #653322;
+   hr{
+    background-color: #fff;
+   }
 }
 
+.module--present {
+    background: url("../images/back_header.jpg") no-repeat;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    .bs-example {
+        .content_item {
+            text-align: center;
+            span {
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #fff;
+                &:first-child {
+                    font-size: 24px;
+                }
+                &:last-child {
+                    margin-bottom: 50px;
+                }
+            }
+            h1 {
+                text-transform: uppercase;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 100px;
+                color: #fff;
+            }
+            p {
+                font-size: 24px;
+                color: #fff;
+                margin-bottom: 250px;
+            }
+            .carousel-indicators {
+                padding-top: 50px;
+            }
+        }
+    }
+}
 
+.module--about {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    img {
+        border-radius: 5px;
+    }
+    h3 {
+        margin-top: 30px;
+        font-size: 25px;
+        color: #333333;
+    }
+    p {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #666666;
+    }
+}
 
+.module--design {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #fff;
+    text-align: center;
+    h2 {
+        font-size: 48px;
+        color: #333333;
+    }
+    p {
+        color: #000000;
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    h4 {
+        margin-top: 15px;
+        font-size: #333333;
+    }
+    a {
+        padding-top: 10px;
+        color: #adadad;
+        text-decoration: none;
+        &:hover {
+            color: #dd3f19;
+        }
+    }
+}
+.module--lates_blog{
+    padding-top: 90px;
+    padding-bottom: 90px; 
+    text-align:center;
+    h2{ 
+        margin-bottom: 40px;
+        font-size: 42px;
+        color: #333333;
 
+    }
+
+    a{  
+        margin-top:30px;
+        font-size: 18px;
+        color: #333333;
+        text-decoration: none;
+        &:hover{
+            color: #dd3f19;
+        }
+    }  
+    span{
+        font-size: 11px;
+        color: #adadad;
+      &:first-child{
+        padding-top: 10px;
+        padding-bottom:10px;
+        border-bottom: 1px solid #e5e5e5;
+
+      }
+      &:last-child{
+        border-bottom: 1px solid #e5e5e5;
+        border-top: 1px solid #e5e5e5;
+
+      }    
+
+    }
+    p{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #555555;
+        font-size: 25px;
+
+    }
+    
+}

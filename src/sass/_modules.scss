@@ -9,7 +9,7 @@ body {
     color: #fff;
     font-size: 14px;
     .navbar-nav {
-        margin-top: 20px;
+        margin-top: 10px;
         > li > a {
             text-transform: uppercase;
             background-color: transparent;
@@ -28,11 +28,11 @@ body {
 }
 
 .module--wrapper {
-    padding-top: 100px;
-   // background-color: #653322;
-   hr{
-    background-color: #fff;
-   }
+    //  padding-top: 100px;
+    // background-color: #653322;
+    hr {
+        background-color: #fff;
+    }
 }
 
 .module--present {
@@ -93,13 +93,21 @@ body {
 }
 
 .module--design {
-    padding-top: 90px;
+    .container {
+        border-top: 1px solid #e5e5e5;
+    }
     padding-bottom: 90px;
     background: #fff;
     text-align: center;
     h2 {
+        padding-top: 90px;
         font-size: 48px;
         color: #333333;
+         font-family: "Myriad Pro Light";
+          font-style: normal;
+  font-weight: normal; 
+
+
     }
     p {
         color: #000000;
@@ -117,50 +125,102 @@ body {
         &:hover {
             color: #dd3f19;
         }
+        i {
+            padding-right: 2px;
+        }
     }
 }
-.module--lates_blog{
-    padding-top: 90px;
-    padding-bottom: 90px; 
+
+.module--lates_blog {
+    background: #fff;
+    .container {
+        border-top: 1px solid #e5e5e5;
+    }
+    padding-bottom: 90px;
     text-align:center;
-    h2{ 
+    h2 {
         margin-bottom: 40px;
+        padding-top: 90px;
         font-size: 42px;
         color: #333333;
-
     }
-
-    a{  
-        margin-top:30px;
+    a {
+        margin-top: 30px;
         font-size: 18px;
         color: #333333;
         text-decoration: none;
-        &:hover{
+        &:hover {
             color: #dd3f19;
         }
-    }  
-    span{
-        font-size: 11px;
-        color: #adadad;
-      &:first-child{
-        padding-top: 10px;
-        padding-bottom:10px;
-        border-bottom: 1px solid #e5e5e5;
-
-      }
-      &:last-child{
+    }
+    .module--lates_blog__data {
         border-bottom: 1px solid #e5e5e5;
         border-top: 1px solid #e5e5e5;
-
-      }    
-
+        padding-top: 10px;
+        padding-bottom:10px;
     }
-    p{
+    .module--lates_blog_about {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #e5e5e5;
+    }
+    span {
+        font-size: 11px;
+        color: #adadad;
+    }
+    p {
         margin-top: 25px;
         margin-bottom: 25px;
         color: #555555;
-        font-size: 25px;
-
+        font-size: 12px;
     }
-    
+}
+
+.module--footer {
+    background: url("../images/back_foter.jpg") no-repeat;
+    text-align: center;
+    padding-top: 65px;
+    // padding-bottom: 50px;
+    p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 12px;
+    }
+    ul {
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 50px;
+        border: 1px solid #524c52;
+        border-radius: 5px;
+        padding-left: 0px;
+        li {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+            display: inline;
+            a {
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.module--footer_small {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+    background: url("../images/back_smal_fotter.jpg") no-repeat;
+    text-align: center;
+    color: #fff;
+    .module--footer_small__copyright {
+        font-size: 12px;
+    }
+    a {
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #fff;
+    }
 }

@@ -67,10 +67,15 @@ var fontsTargetbs  = './www/assets/fonts/bootstrap/';
 var imgDst         = './www/assets/images';
 var jadetarget     = './www/';
 var opensanstarget = './www/assets/fonts/open-sans/';
+var myriadprotarget = './www/assets/fonts/';
 var imgDstcss      ='./www/assets/styles/img';
 // tasks 
 
+ gulp.task('copymyriadpro', function() {
+    gulp.src('./src/font/*/*')
+        .pipe(gulp.dest(myriadprotarget));
 
+});
 
 gulp.task('copyopensans', function() {
     gulp.src('./bower_components/open-sans/fonts/*/*')

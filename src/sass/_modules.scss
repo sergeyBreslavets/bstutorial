@@ -41,6 +41,9 @@ body {
     padding-bottom: 20px;
     .bs-example {
         .content_item {
+          font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
             text-align: center;
             span {
                 font-size: 24px;
@@ -84,8 +87,14 @@ body {
         margin-top: 30px;
         font-size: 25px;
         color: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
     }
-    p {
+    p { 
+       font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
         margin-top: 20px;
         font-size: 12px;
         color: #666666;
@@ -103,25 +112,30 @@ body {
         padding-top: 90px;
         font-size: 48px;
         color: #333333;
-         font-family: "Myriad Pro Light";
-          font-style: normal;
-  font-weight: normal; 
-
-
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
     }
     p {
         color: #000000;
         font-size: 16px;
         margin-bottom: 45px;
+         font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
     }
     h4 {
         margin-top: 15px;
         font-size: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
     }
     a {
         padding-top: 10px;
         color: #adadad;
         text-decoration: none;
+
         &:hover {
             color: #dd3f19;
         }
@@ -143,12 +157,18 @@ body {
         padding-top: 90px;
         font-size: 42px;
         color: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
     }
     a {
         margin-top: 30px;
         font-size: 18px;
         color: #333333;
         text-decoration: none;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
         &:hover {
             color: #dd3f19;
         }
@@ -157,12 +177,18 @@ body {
         border-bottom: 1px solid #e5e5e5;
         border-top: 1px solid #e5e5e5;
         padding-top: 10px;
-        padding-bottom:10px;
+        padding-bottom: 10px;
+         font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
     }
     .module--lates_blog_about {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 2px solid #e5e5e5;
+         font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
     }
     span {
         font-size: 11px;
@@ -173,6 +199,9 @@ body {
         margin-bottom: 25px;
         color: #555555;
         font-size: 12px;
+         font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
     }
 }
 
@@ -186,8 +215,14 @@ body {
         margin-bottom: 30px;
         color: #fff;
         font-size: 12px;
+         font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
     }
-    ul {
+    ul { 
+         font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
         margin-left: 18px;
         margin-right: 18px;
         margin-bottom: 50px;
@@ -214,6 +249,9 @@ body {
     background: url("../images/back_smal_fotter.jpg") no-repeat;
     text-align: center;
     color: #fff;
+     font-family: "Myriad Pro Light";
+       font-style: normal;
+        font-weight: normal;
     .module--footer_small__copyright {
         font-size: 12px;
     }

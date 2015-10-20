@@ -1,3 +1,4 @@
+
 body {
     background-color: #f3f3f3;
 }
@@ -41,9 +42,9 @@ body {
     padding-bottom: 20px;
     .bs-example {
         .content_item {
-          font-family: "Myriad Pro Light";
-        font-style: normal;
-        font-weight: normal;
+            font-family: "Myriad Pro Light";
+            font-style: normal;
+            font-weight: normal;
             text-align: center;
             span {
                 font-size: 24px;
@@ -91,9 +92,9 @@ body {
         font-style: normal;
         font-weight: normal;
     }
-    p { 
-       font-family: "Myriad Pro Light";
-       font-style: normal;
+    p {
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
         margin-top: 20px;
         font-size: 12px;
@@ -120,8 +121,8 @@ body {
         color: #000000;
         font-size: 16px;
         margin-bottom: 45px;
-         font-family: "Myriad Pro Light";
-       font-style: normal;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
     }
     h4 {
@@ -135,7 +136,6 @@ body {
         padding-top: 10px;
         color: #adadad;
         text-decoration: none;
-
         &:hover {
             color: #dd3f19;
         }
@@ -178,16 +178,16 @@ body {
         border-top: 1px solid #e5e5e5;
         padding-top: 10px;
         padding-bottom: 10px;
-         font-family: "Myriad Pro Light";
-       font-style: normal;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
     }
     .module--lates_blog_about {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 2px solid #e5e5e5;
-         font-family: "Myriad Pro Light";
-       font-style: normal;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
     }
     span {
@@ -199,8 +199,8 @@ body {
         margin-bottom: 25px;
         color: #555555;
         font-size: 12px;
-         font-family: "Myriad Pro Light";
-       font-style: normal;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
     }
 }
@@ -215,13 +215,13 @@ body {
         margin-bottom: 30px;
         color: #fff;
         font-size: 12px;
-         font-family: "Myriad Pro Light";
-       font-style: normal;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
     }
-    ul { 
-         font-family: "Myriad Pro Light";
-       font-style: normal;
+    ul {
+        font-family: "Myriad Pro Light";
+        font-style: normal;
         font-weight: normal;
         margin-left: 18px;
         margin-right: 18px;
@@ -249,9 +249,9 @@ body {
     background: url("../images/back_smal_fotter.jpg") no-repeat;
     text-align: center;
     color: #fff;
-     font-family: "Myriad Pro Light";
-       font-style: normal;
-        font-weight: normal;
+    font-family: "Myriad Pro Light";
+    font-style: normal;
+    font-weight: normal;
     .module--footer_small__copyright {
         font-size: 12px;
     }
@@ -260,5 +260,32 @@ body {
         text-decoration: none;
         font-size: 12px;
         color: #fff;
+    }
+}
+
+.module_test {
+    .item_my {
+        position: relative;
+        .blocback {
+            position: absolute;
+            z-index: 1;
+            background: green;
+            width: 200px;
+            height: 200px;
+        }
+        .bloctop {
+            position: absolute;
+            z-index: 2;
+            background: red;
+            width: 200px;
+            height: 200px;
+            &:hover,
+            &:focus { 
+                 .blocback {
+                   z-index: 3; 
+                 }
+                z-index: 0;
+            }
+        }
     }
 }

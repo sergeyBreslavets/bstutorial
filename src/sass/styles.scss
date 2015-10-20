@@ -1,14 +1,17 @@
 @import '_custom_var';
   
-
 @import '_font_myriadpro';
 @import '_font_helyetica';
 
+$icon-font-path: 'assets/fonts' !default;
+
+ @import 'bower_components/video.js/src/css/video-js';
+ @import 'bower_components/BigVideo/css/bigvideo.css';
 
 /* Open Sans Webfont Kit
  * -------------------------- */
 
-
+/*
 @import 'bower_components/open-sans/scss/base';
 
 @import 'bower_components/open-sans/scss/light';
@@ -21,7 +24,7 @@
 //@import 'bower_components/open-sans/scss/bold-italic';
 //@import 'bower_components/open-sans/scss/extrabold';
 //@import 'bower_components/open-sans/scss/extrabold-italic';
-
+*/
 
 @import "bower_components/components-font-awesome/scss/font-awesome";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";

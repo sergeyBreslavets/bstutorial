@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test</title>
+    <script src="assets/scripts/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="module_test">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>зло как зло только зло</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item_my">
+                        <div class="blocback"> back </div>
+                        <div class="bloctop"> top <img src="assets/images/img_ab2.png" alt=""> </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row"></div>
+        </div>
+        <script>
+      $(function() {
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show('http://vjs.zencdn.net/v/oceans.mp4',{ambient:true});
+});
+        </script>
+</body>
+
+</html>

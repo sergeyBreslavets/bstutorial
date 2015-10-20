@@ -15,12 +15,17 @@ var autoprefix     = require('gulp-autoprefixer');
 var minifyCSS      = require('gulp-minify-css');
 var sass           = require('gulp-sass');
 var jade           = require('gulp-jade');
-
+var notify         = require("gulp-notify");
 //src file
 var imgSrc         = './src/images/**/*';
 var sourcesjs      =  [     
                             'bower_components/modernizr/modernizr.js',
-                            'bower_components/jquery/dist/jquery.min.js', 
+                            'bower_components/jquery/src/jquery.js',
+                                'bower_components/jquery-ui/jquery-ui.js',
+                                 'bower_components/imagesloaded/imagesloaded.js', 
+                                // 'bower_components/video.js/src/js/video.js',
+                                 'bower_components/bigvideo/lib/bigvideo.js',
+
                             //'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
                             //'bower_components/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js',
                             
@@ -37,7 +42,8 @@ var sourcesjs      =  [
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js',
                             
-                            
+                          
+
                             './src/scripts/*.js'
 
                             //'bower_components/OwlCarousel/owl-carousel/owl.carousel.js',
@@ -87,34 +93,47 @@ gulp.task('copyfont', function() {
                './bower_components/components-font-awesome/fonts/*'
              ])
         .pipe(gulp.dest(fontsTargetbs));
+
 });
 //jade task
 gulp.task('jade', function() {
   gulp.src([srcjade])
     .pipe(jade())
     .pipe(gulp.dest(jadetarget))
-
+    .pipe(notify({
+            title: 'jade',
+            message: 'jade-complete the work!'
+    }));
 }); 
 
 // JS hint task
 gulp.task('jshint', function() {
     gulp.src('./src/scripts/*.js')
         .pipe(jshint())
-        .pipe(jshint.reporter('default'));
+        .pipe(jshint.reporter('default'))
+           .pipe(notify("jshint-complete the work!"));
 });
 // minify new images
 gulp.task('imagemin', function() {
     gulp.src(imgSrc)
         .pipe(changed(imgDst))
         .pipe(imagemin())
-        .pipe(gulp.dest(imgDst));
+        .pipe(gulp.dest(imgDst))
+         .pipe(notify({
+            title: 'imagemin',
+            message: 'imagemin-complete the work!'
+    }));
 });
 // minify new or changed HTML pages
 gulp.task('htmlpage', function() {
     gulp.src(htmlSrc)
         .pipe(changed(htmlDst))
         .pipe(minifyHTML())
-        .pipe(gulp.dest(htmlDst));
+        .pipe(gulp.dest(htmlDst))
+         .pipe(notify({
+            title: 'html',
+            message: 'html-complete the work!'
+    }));
 });
 // JS concat, strip debugging and minify
 gulp.task('scripts', function() {
@@ -123,7 +142,11 @@ gulp.task('scripts', function() {
         .pipe(stripDebug())
         .pipe(uglify())
 
-    .pipe(gulp.dest(pathjstarget));
+    .pipe(gulp.dest(pathjstarget))
+    .pipe(notify({
+            title: 'scripts',
+            message: 'scripts-complete the work!'
+    }));
 });
 
 // CSS concat, auto-prefix and minify
@@ -132,20 +155,30 @@ gulp.task('styles', function() {
         .pipe(concat('styles.css'))
         .pipe(autoprefix('last 2 versions'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest(csstarget));
+        .pipe(gulp.dest(csstarget))
+            .pipe(notify({
+            title: 'styles',
+            message: 'styles-complete the work!'
+    }));
 });
 
 //sass task
 
-gulp.task('sass', function() {
-    gulp.src(srcsass)
-        /*.pipe(sourcemaps.init())*/
-        .pipe(sass({
-            errLogToConsole: true
-        }))
-        // .pipe(sourcemaps.write())
-        .pipe(gulp.dest(sasstarget));
+
+
+
+gulp.task('sass', function () {
+  gulp.src(srcsass)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest(sasstarget))
+    .pipe(notify({
+            title: 'sass',
+            message: 'sass-complete the work!'
+
+    }));
 });
+
+
 
 // default gulp task
 gulp.task('watch', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jade'*/], function() {
@@ -199,5 +232,9 @@ gulp.task('imagemincss', function() {
     gulp.src(imgSrccss)
         .pipe(changed(imgDstcss))
         .pipe(imagemin())
-        .pipe(gulp.dest(imgDstcss));
+        .pipe(gulp.dest(imgDstc5ss))
+        .pipe(notify({
+            title: 'imagemincss',
+            message: 'imagemincss-complete the work!'
+    }));
 });

@@ -181,7 +181,7 @@ gulp.task('sass', function () {
 
 
 // default gulp task
-gulp.task('watch', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jade'*/], function() {
+gulp.task('watch', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', 'imagemincss' /*'jade'*/], function() {
     // watch for HTML changes
    gulp.watch('./src/html/*.html', function() {
     gulp.run('htmlpage');
@@ -203,9 +203,15 @@ gulp.task('watch', ['imagemin', 'htmlpage',  'scripts', 'styles', 'sass', /*'jad
         gulp.run('imagemin');
     });
 
+     gulp.watch('./src/img/*', function() {
+        gulp.run('imagemincss');
+    });
+  
+
   // gulp.task('./src/jade/**/*', function(){
   // gulp.run('jade');
    //});
+
 
 });
 
@@ -228,11 +234,12 @@ gulp.task('whtml', function() {
     });
 });
 
+
 gulp.task('imagemincss', function() {
     gulp.src(imgSrccss)
         .pipe(changed(imgDstcss))
         .pipe(imagemin())
-        .pipe(gulp.dest(imgDstc5ss))
+        .pipe(gulp.dest(imgDstcss))
         .pipe(notify({
             title: 'imagemincss',
             message: 'imagemincss-complete the work!'
